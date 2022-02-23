@@ -1,0 +1,44 @@
+﻿- Properties (auto, backing field, private, no set, init)
+- Collection/object initializers
+- LINQ query
+- NULL coalesence
+- Extension methods
+- records/structs
+- Generics 
+- Overloading
+- Interfaces/classes
+- Parameter overloading
+- 
+
+
+
+# Opdracht 1
+Maak de klassen Cat en Dog (en eventueel Animal) af zodat per dier een naam opgegeven kan worden. De naam mag alleen tijdens constructie worden ingevuld.
+
+# Opdracht 2
+De naam uit de vorige opdracht moet ook ingevuld kunnen worden door middel van een object initializer
+
+# Opdracht 3
+In een kooi moeten een aantal dieren kunnen worden gezet. Binnen een kooi mogen katten en honden niet gemengd gehouden worden.
+
+# Opdracht 4
+Binnen de klasse kooi wil ik op een makkelijke manier op kunnen halen hoeveel dieren er in de kooi zitten
+
+# Opdracht 5
+Per kooi mogen nooit meer dan 5 dieren gehouden worden. Zorg ervoor dat de code hiermee correct rekening houdt.
+
+# Opdracht 6
+Het asiel op opgedeeld in een aantal kamers. Binnen een kamer kunnen een bepaald maximaal aantal kooien. Bij het aanmaken van de kamer, moet het aantal kooien al direct aangemaakt worden.
+
+# Opdracht 7
+Van een hond en kat moet ook bij worden gehouden of het een mannetje of vrouwtje is. Pas de code hiervoor aan.
+
+# Opdracht 8
+De klasse kooi moet een mogelijkheid krijgen om een dier te plaatsen in de kooi. Hiervoor zijn 2 mogelijkheden: met en zonder registratie van de vrijwilliger die dit doet.
+
+# Opdracht 9
+Alle dieren in een kamer moeten op een makkelijke manier worden geprint naar de console.
+
+# Opdracht 10
+Alle dieren moeten een optionele leeftijd krijgen. Als de leeftijd gevuld is, dan moet deze ook worden meegenomen in de output van opdracht 9
+
