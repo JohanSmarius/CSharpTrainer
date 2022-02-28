@@ -47,3 +47,6 @@ Maak een record class aan voor Owner. Dieren die geadopteerd zijn, maar nog niet
 
 # Opdracht 12
 Toon aan dat equality binnen een record standaard op inhoud gebeurd. 
+
+# Opdracht 13
+Maak de owner binnen de pet op de juiste manier nullable.
