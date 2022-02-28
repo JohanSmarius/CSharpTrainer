@@ -42,3 +42,8 @@ Alle dieren in een kamer moeten op een makkelijke manier worden geprint naar de 
 # Opdracht 10
 Alle dieren moeten een optionele leeftijd krijgen. Als de leeftijd gevuld is, dan moet deze ook worden meegenomen in de output van opdracht 9
 
+# Opdracht 11
+Maak een record class aan voor Owner. Dieren die geadopteerd zijn, maar nog niet opgehaald, krijgen deze property gezet.
+
+# Opdracht 12
+Toon aan dat equality binnen een record standaard op inhoud gebeurd. 
