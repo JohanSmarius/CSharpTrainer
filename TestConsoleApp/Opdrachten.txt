@@ -10,8 +10,6 @@
 - Parameter overloading
 - 
 
-
-
 # Opdracht 1
 Maak de klassen Cat en Dog (en eventueel Animal) af zodat per dier een naam opgegeven kan worden. De naam mag alleen tijdens constructie worden ingevuld.
 
@@ -50,3 +48,6 @@ Toon aan dat equality binnen een record standaard op inhoud gebeurd.
 
 # Opdracht 13
 Maak de owner binnen de pet op de juiste manier nullable.
+
+# Opdracht 14
+Maak voor de logica hierboven unit testen. Zorg ervoor dat de happy en unhappy flow afgehandeld wordt.

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class Cat
+    public class Cat : Animal
     {
+        public Cat(string name) : base(name)
+        {
+        }
     }
 }
