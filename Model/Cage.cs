@@ -9,5 +9,7 @@ namespace Model
     public class Cage
     {
         int capacity;
+        
+        public List<Animal> Animals { get; set; }
     }
 }

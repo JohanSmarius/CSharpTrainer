@@ -1,7 +1,7 @@
 ﻿namespace Model
 {
     // Name mag niet worden veranderd na het aanmaken van het object.
-    public class Animal
+    public abstract class Animal
     {
         public string Name { get; set; }
 
