@@ -7,7 +7,7 @@ namespace DomainService;
 // Totaal geen implementatie
 // Alleen een set van afspraken
 
-public interface BaseShelterService
+public interface IShelterService
 {
     public void PlaceAnimal(Animal animal);
 }

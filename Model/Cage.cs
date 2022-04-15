@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Model;
 
-namespace Model
+public class Cage
 {
-    public class Cage
-    {
-        int capacity;
+    int capacity;
+
+    public int Number { get; set; }
+
+    public Volunteer Volunteer { get; set; }
         
-        public List<Animal> Animals { get; set; }
+    public List<Animal> Animals { get; set; }
+
+    public override string ToString()
+    {
+        return base.ToString();
     }
 }

@@ -2,7 +2,7 @@
 
 namespace DomainService;
 
-public class ShelterService : BaseShelterService
+public class ShelterService : IShelterService
 {
     public void PlaceAnimal(Animal animal)
     {

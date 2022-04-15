@@ -5,15 +5,15 @@ namespace TestConsoleApp;
 
 public class ShelterController
 {
-    private readonly BaseShelterService _baseShelterService;
+    private readonly IShelterService _shelterService;
 
-    public ShelterController(BaseShelterService baseShelterService)
+    public ShelterController(IShelterService shelterService)
     {
-        _baseShelterService = baseShelterService;
+        _shelterService = shelterService;
     }
     
     public void AddAnimalToShelter(Animal animal)
     { 
-        _baseShelterService.PlaceAnimal(animal);
+        _shelterService.PlaceAnimal(animal);
     }
 }

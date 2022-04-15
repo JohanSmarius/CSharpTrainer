@@ -17,7 +17,8 @@ public class AnimalLinqTests
     [Fact]
     public void GivenList_Should_Return_Loesje()
     {
-        Assert.True(false);
+        var result = CreateAnimals().Where(a => a.Name == "Loes");
+        Assert.NotNull(result);
     }
 
     [Fact] 
@@ -37,12 +38,13 @@ public class AnimalLinqTests
     public void GivenList_Should_Return_Dogs()
     {
         Assert.True(false);
+        Assert.IsType<Dog>(CreateAnimals().OfType<Dog>().First());
     }
 
     [Fact]
     public void GivenShelter_GetAllAnimals_Should_Return_All_Animals_From_The_Cages()
     {
-        Assert.True(false);
+        var animals = CreateShelter().GetAllAnimals();
     }
 
     [Fact]
