@@ -13,6 +13,6 @@ public class Shelter
     /// <returns></returns>
     public List<Animal> GetAllAnimals()
     {
-        return Cages.SelectMany(c => c.Animals).ToList();
+        throw new NotImplementedException();
     }
 }
